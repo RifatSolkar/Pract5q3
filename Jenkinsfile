@@ -2,7 +2,8 @@ pipeline {
     agent any
 
     environment {
-        PROJECT_PATH = "C:\Rifat\DevOps\PracticalNo_05\Q3"
+        PROJECT_PATH = "C:/Rifat/DevOps/PracticalNo_05/Q3"
+
         IMAGE_NAME = "my-java-app"
         CONTAINER_NAME = "java-container"
     }
